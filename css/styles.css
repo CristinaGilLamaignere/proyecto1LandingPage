@@ -1,0 +1,48 @@
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: rgb(27, 3, 44);
+    color: rgb(216, 184, 247);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgba(240, 240, 240, 0.879);
+    color: rgb(77, 9, 125);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    color: rgb(27, 3, 44);
+    font-style: oblique;
+}
+
+li {
+    margin-bottom: 15px;
+    color: rgb(27, 3, 44);
+}
+
+section {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(27, 3, 44);
+    color: rgb(216, 184, 247);
+    font-weight: bold;
+
+}
+[id^="error"] {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
